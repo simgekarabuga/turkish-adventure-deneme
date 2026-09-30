@@ -1,0 +1,13 @@
+<!doctype html><meta charset="utf-8"><title>Telephone audio verification</title>
+<button id="play">Test supplied recording</button><p id="status">Waiting for explicit user action.</p>
+<audio id="recording" preload="metadata" muted src="./assets/audio/WhatsApp Audio 2026-09-26 at 21.55.23.aac"></audio>
+<script>
+const audio = document.querySelector('#recording');
+const status = document.querySelector('#status');
+document.querySelector('#play').addEventListener('click', async () => {
+  try { await audio.play(); status.textContent = `Playing supplied AAC · ${audio.duration.toFixed(1)} seconds`; }
+  catch (error) { status.textContent = `Playback failed: ${error.name} ${error.message}`; }
+});
+audio.addEventListener('ended', () => { status.textContent = 'Playback finished successfully'; });
+audio.addEventListener('error', () => { status.textContent = `Audio load/decode error: ${audio.error?.code}`; });
+</script>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111827" />
+    <title>Pixel Adventure — World Prototype</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <p class="eyebrow">Original adventure project</p>
+        <h1>Pixel Adventure</h1>
+        <p class="intro">Explore Istanbul's squares, tram streets, market, waterfront, and hidden alley</p>
+      </header>
+
+      <section class="game-panel" aria-labelledby="game-title">
+        <h2 id="game-title">Game canvas</h2>
+        <div class="canvas-frame">
+          <canvas id="game-canvas" aria-label="Game world"></canvas>
+        </div>
+        <p id="game-status" class="status" role="status">Starting…</p>
+      </section>
+    </main>
+  </body>
+</html>

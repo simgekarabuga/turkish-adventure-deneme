@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="128" viewBox="0 0 72 128" shape-rendering="crispEdges">
+  <title>Original traveler pixel sprite sheet: down, up, left, and right, with idle and two walking frames</title>
+  <defs>
+    <g id="shadow">
+      <path fill="#17251e" d="M6 27h3v-1h6v1h3v2h-3v1H9v-1H6z"/>
+    </g>
+    <g id="down-body">
+      <path fill="#342b2b" d="M7 5h2V3h8v2h2v6h-2v3H9v-2H7z"/>
+      <path fill="#d5a77d" d="M9 7h8v6h-1v2h-6v-2H9z"/>
+      <path fill="#342b2b" d="M8 6h2v3H8zm8 0h2v3h-2zM10 5h6V4h2v3H9V6h1z"/>
+      <path fill="#302927" d="M10 10h1v1h-1zm5 0h1v1h-1z"/>
+      <path fill="#397b78" d="M7 15h2v-1h8v1h2v8h-2v2H9v-2H7z"/>
+      <path fill="#285956" d="M6 17h2v5H7v2H6zm12 0h2v7h-2v-2h-1v-3h1z"/>
+      <path fill="#e4c584" d="M10 15h4v2h-1v2h-2v-2h-1zM10 22h5v1h-5z"/>
+      <path fill="#b7684a" d="M9 24h8v2H9z"/>
+    </g>
+    <g id="down-idle-legs">
+      <path fill="#55423a" d="M9 25h4v3h-1v2H8v-2h1zm5 0h4v3h1v2h-4v-2h-1z"/>
+      <path fill="#302b29" d="M8 29h4v2H7v-1h1zm7 0h4v1h1v1h-5z"/>
+    </g>
+    <g id="down-step-a">
+      <path fill="#55423a" d="M9 25h4v3h-2v2H8v-2h1zm5 0h4v3h2v2h-4v-2h-2z"/>
+      <path fill="#302b29" d="M8 29h3v2H7v-1h1zm8 0h4v2h-4z"/>
+    </g>
+    <g id="down-step-b">
+      <path fill="#55423a" d="M9 25h4v3h2v2h-4v-2H8v-1h1zm5 0h4v3h-1v2h-3z"/>
+      <path fill="#302b29" d="M9 29h4v2H8v-1h1zm6 0h4v1h1v1h-5z"/>
+    </g>
+    <g id="up-body">
+      <path fill="#342b2b" d="M7 5h2V3h8v2h2v7h-2v3H9v-3H7z"/>
+      <path fill="#342b2b" d="M8 6h2v5H8zm8 0h2v5h-2zM10 5h6V4h2v3H9V6h1z"/>
+      <path fill="#d5a77d" d="M10 10h6v3h-1v2h-4v-2h-1z"/>
+      <path fill="#b7684a" d="M7 15h12v9H7z"/>
+      <path fill="#397b78" d="M8 16h10v7H8z"/>
+      <path fill="#285956" d="M6 17h2v6H7v1H6zm12 0h2v7h-2z"/>
+      <path fill="#d99b4c" d="M8 17h3v6H8zm8 0h3v6h-3z"/>
+      <path fill="#a65e3f" d="M10 17h5v1h2v4h-2v2h-5v-2H9v-4h1z"/>
+      <path fill="#e4c584" d="M11 18h4v1h-4zm1 4h2v1h-2z"/>
+      <path fill="#e4c584" d="M11 20h2v2h-2zm-2 3h7v1H9z"/>
+      <path fill="#55423a" d="M9 24h8v2H9z"/>
+    </g>
+    <g id="up-idle-legs">
+      <path fill="#55423a" d="M9 25h4v3h-1v2H8v-2h1zm5 0h4v3h1v2h-4v-2h-1z"/>
+      <path fill="#302b29" d="M8 29h4v2H7v-1h1zm7 0h4v1h1v1h-5z"/>
+    </g>
+    <g id="up-step-a">
+      <path fill="#55423a" d="M9 25h4v3h-2v2H8v-2h1zm5 0h4v3h2v2h-4v-2h-2z"/>
+      <path fill="#302b29" d="M8 29h3v2H7v-1h1zm8 0h4v2h-4z"/>
+    </g>
+    <g id="up-step-b">
+      <path fill="#55423a" d="M9 25h4v3h2v2h-4v-2H8v-1h1zm5 0h4v3h-1v2h-3z"/>
+      <path fill="#302b29" d="M9 29h4v2H8v-1h1zm6 0h4v1h1v1h-5z"/>
+    </g>
+    <g id="side-body">
+      <path fill="#342b2b" d="M6 6h2V4h8v1h3v4h-2v4h-2v2H9v-2H7v-2H6z"/>
+      <path fill="#d5a77d" d="M9 8h8v5h-2v2h-5v-2H8v-3h1z"/>
+      <path fill="#342b2b" d="M7 6h3v3H8v4H6V8h1zM12 5h5v2h2v3h-2V8h-5z"/>
+      <path fill="#302927" d="M14 10h1v1h-1z"/>
+      <path fill="#397b78" d="M7 15h11v2h2v6h-2v2H8v-2H6v-6h1z"/>
+      <path fill="#285956" d="M6 17h2v6H7v2H6zm12 0h2v6h-2z"/>
+      <path fill="#e4c584" d="M8 16h2v2h2v2h-2v-1H8zM9 22h7v1H9z"/>
+      <path fill="#b7684a" d="M9 24h8v2H9z"/>
+    </g>
+    <g id="side-idle-legs">
+      <path fill="#55423a" d="M9 25h4v3h-1v2H8v-2h1zm5 0h4v3h1v2h-4v-2h-1z"/>
+      <path fill="#302b29" d="M8 29h4v2H7v-1h1zm7 0h4v1h1v1h-5z"/>
+    </g>
+    <g id="side-step-a">
+      <path fill="#55423a" d="M8 25h5v3h-2v2H7v-2h1zm6 0h4v3h2v2h-4v-2h-2z"/>
+      <path fill="#302b29" d="M7 29h4v2H6v-1h1zm9 0h4v2h-4z"/>
+    </g>
+    <g id="side-step-b">
+      <path fill="#55423a" d="M9 25h4v3h2v2h-4v-2H8v-1h1zm5 0h4v3h-1v2h-3z"/>
+      <path fill="#302b29" d="M9 29h4v2H8v-1h1zm6 0h4v1h1v1h-5z"/>
+    </g>
+  </defs>
+
+  <!-- Each row is down, up, left, right; columns are idle, step A, step B. -->
+  <g transform="translate(0 0)"><use href="#shadow"/><use href="#down-idle-legs"/><use href="#down-body"/></g>
+  <g transform="translate(24 0)"><use href="#shadow"/><use href="#down-step-a"/><use href="#down-body"/></g>
+  <g transform="translate(48 0)"><use href="#shadow"/><use href="#down-step-b"/><use href="#down-body"/></g>
+
+  <g transform="translate(0 32)"><use href="#shadow"/><use href="#up-idle-legs"/><use href="#up-body"/></g>
+  <g transform="translate(24 32)"><use href="#shadow"/><use href="#up-step-a"/><use href="#up-body"/></g>
+  <g transform="translate(48 32)"><use href="#shadow"/><use href="#up-step-b"/><use href="#up-body"/></g>
+
+  <g transform="translate(0 64)"><use href="#shadow"/><use href="#side-idle-legs"/><use href="#side-body"/></g>
+  <g transform="translate(24 64)"><use href="#shadow"/><use href="#side-step-a"/><use href="#side-body"/></g>
+  <g transform="translate(48 64)"><use href="#shadow"/><use href="#side-step-b"/><use href="#side-body"/></g>
+
+  <g transform="translate(0 96)"><use href="#shadow"/><use href="#side-idle-legs"/><use href="#side-body" transform="translate(24 0) scale(-1 1)"/></g>
+  <g transform="translate(24 96)"><use href="#shadow"/><use href="#side-step-a"/><use href="#side-body" transform="translate(24 0) scale(-1 1)"/></g>
+  <g transform="translate(48 96)"><use href="#shadow"/><use href="#side-step-b"/><use href="#side-body" transform="translate(24 0) scale(-1 1)"/></g>
+</svg>

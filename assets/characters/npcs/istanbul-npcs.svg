@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="176" viewBox="0 0 160 176" shape-rendering="crispEdges">
+  <title>Original Istanbul NPC idle sprites, five characters in four directions</title>
+  <!-- 32x40 frames; integer-pixel blocks keep the sheet crisp at browser zoom. -->
+  <defs>
+    <!-- Tea seller: warm jacket, striped apron, and a readable tray with tea glasses. -->
+    <g id="tea-down">
+      <path fill="#182820" d="M7 34h18v3H7z"/><path fill="#59463a" d="M10 28h12v7H10zM8 13h16v16H8z"/>
+      <path fill="#b65f43" d="M7 16h18v11H7z"/><path fill="#d5a35d" d="M5 19h4v8H5zm18 0h4v8h-4z"/>
+      <path fill="#e5c989" d="M11 17h10v2H11zm0 4h2v5h-2zm4 0h2v5h-2zm4 0h2v5h-2z"/>
+      <path fill="#d9b58f" d="M11 6h10v9H11z"/><path fill="#88816e" d="M9 5h13v4H9zm2-2h9v3h-9z"/>
+      <path fill="#302b27" d="M13 10h2v2h-2zm5 0h2v2h-2z"/><path fill="#eadbb5" d="M8 30h16v2H8z"/>
+      <path fill="#654a36" d="M1 24h7v2H1zm1 2h5v1H2z"/><path fill="#f1dfb4" d="M2 20h2v4H2zm4 0h2v4H6z"/><path fill="#a9513c" d="M2 21h2v2H2zm4 0h2v2H6z"/>
+      <path fill="#5a4033" d="M11 34h5v3h-5zm7 0h5v3h-5z"/>
+    </g>
+    <g id="tea-up">
+      <path fill="#182820" d="M7 34h18v3H7z"/><path fill="#59463a" d="M10 28h12v7H10zM8 13h16v16H8z"/>
+      <path fill="#9b513d" d="M7 16h18v12H7z"/><path fill="#d5a35d" d="M5 19h4v8H5zm18 0h4v8h-4z"/>
+      <path fill="#e5c989" d="M11 18h10v2H11zM11 23h10v2H11z"/><path fill="#8c806f" d="M9 5h14v8H9z"/>
+      <path fill="#d9b58f" d="M11 9h10v6H11z"/><path fill="#60473a" d="M11 34h5v3h-5zm7 0h5v3h-5z"/>
+    </g>
+    <g id="tea-left"><use href="#tea-down"/><path fill="#d9b58f" d="M18 9h3v4h-3z"/><path fill="#302b27" d="M13 10h2v2h-2zM12 12h1v1h-1z"/><path fill="#f4dfab" d="M4 20h3v5H4z"/><path fill="#9f4938" d="M3 18h4v2H3z"/></g>
+    <g id="tea-right"><use href="#tea-down"/><path fill="#d9b58f" d="M12 9h3v4h-3z"/><path fill="#302b27" d="M18 10h2v2h-2zM20 12h1v1h-1z"/><path fill="#f4dfab" d="M25 20h3v5h-3z"/><path fill="#9f4938" d="M25 18h4v2h-4z"/></g>
+
+    <!-- Musician: casual layered clothes, scarf, and a small original long-necked saz. -->
+    <g id="music-down">
+      <path fill="#182820" d="M7 34h18v3H7z"/><path fill="#343b49" d="M10 27h12v8H10z"/><path fill="#455d73" d="M8 15h16v14H8z"/>
+      <path fill="#b45d45" d="M8 16h4v11H8z"/><path fill="#e6bd72" d="M12 15h8v3h-8zM13 19h6v2h-6z"/>
+      <path fill="#d7ad83" d="M11 6h10v9H11z"/><path fill="#302929" d="M9 4h13v5H9zm2-2h9v3h-9z"/>
+      <path fill="#262626" d="M13 10h2v2h-2zm5 0h2v2h-2z"/><path fill="#8d5a37" d="M23 17h3v12h-3z"/>
+      <path fill="#d6a153" d="M22 25h7v5h-7zM24 13h2v13h-2z"/><path fill="#f0d395" d="M24 15h1v12h-1z"/>
+      <path fill="#39404a" d="M11 34h5v3h-5zm7 0h5v3h-5z"/>
+    </g>
+    <g id="music-up">
+      <path fill="#182820" d="M7 34h18v3H7z"/><path fill="#343b49" d="M10 27h12v8H10z"/><path fill="#455d73" d="M8 15h16v14H8z"/>
+      <path fill="#c18057" d="M8 17h16v3H8z"/><path fill="#e6bd72" d="M12 16h8v3h-8z"/><path fill="#302929" d="M9 4h14v10H9z"/>
+      <path fill="#8d5a37" d="M23 17h3v12h-3z"/><path fill="#d6a153" d="M22 25h7v5h-7zM24 13h2v13h-2z"/>
+      <path fill="#39404a" d="M11 34h5v3h-5zm7 0h5v3h-5z"/>
+    </g>
+    <g id="music-left"><use href="#music-down"/><path fill="#d7ad83" d="M18 9h3v4h-3z"/><path fill="#262626" d="M13 10h2v2h-2zM12 12h1v1h-1z"/></g>
+    <g id="music-right"><use href="#music-down"/><path fill="#d7ad83" d="M12 9h3v4h-3z"/><path fill="#262626" d="M18 10h2v2h-2zM20 12h1v1h-1z"/></g>
+
+    <!-- Ferry worker: practical blue workwear, cap without insignia, rope detail. -->
+    <g id="ferry-down">
+      <path fill="#182820" d="M7 34h18v3H7z"/><path fill="#273845" d="M10 28h12v7H10z"/><path fill="#3f7180" d="M8 15h16v15H8z"/>
+      <path fill="#d5c39a" d="M9 5h14v4H9zM11 3h10v3H11z"/><path fill="#d6ae83" d="M11 8h10v7H11z"/>
+      <path fill="#342e2a" d="M13 11h2v2h-2zm5 0h2v2h-2z"/><path fill="#254e5c" d="M15 16h2v13h-2z"/>
+      <path fill="#dec985" d="M11 18h2v2h-2zm8 0h2v2h-2zM17 24h4v2h-4z"/><path fill="#d2a46e" d="M6 20h3v8H6zm17 0h3v8h-3z"/>
+      <path fill="#27333b" d="M11 34h5v3h-5zm7 0h5v3h-5z"/>
+    </g>
+    <g id="ferry-up">
+      <path fill="#182820" d="M7 34h18v3H7z"/><path fill="#273845" d="M10 28h12v7H10z"/><path fill="#3f7180" d="M8 15h16v15H8z"/>
+      <path fill="#d5c39a" d="M9 5h14v4H9zM11 3h10v3H11z"/><path fill="#d6ae83" d="M11 8h10v7H11z"/>
+      <path fill="#254e5c" d="M10 16h12v3H10zM15 19h2v10h-2z"/><path fill="#dec985" d="M11 22h10v2H11z"/>
+      <path fill="#27333b" d="M11 34h5v3h-5zm7 0h5v3h-5z"/>
+    </g>
+    <g id="ferry-left"><use href="#ferry-down"/><path fill="#d6ae83" d="M18 10h3v4h-3z"/><path fill="#342e2a" d="M13 11h2v2h-2zM12 13h1v1h-1z"/><path fill="#d5c39a" d="M8 5h13v3H8z"/></g>
+    <g id="ferry-right"><use href="#ferry-down"/><path fill="#d6ae83" d="M12 10h3v4h-3z"/><path fill="#342e2a" d="M18 11h2v2h-2zM20 13h1v1h-1z"/><path fill="#d5c39a" d="M11 5h13v3H11z"/></g>
+
+    <!-- Cat lover: leaf-green jacket. The companion has its own frame below. -->
+    <g id="cat-down">
+      <path fill="#182820" d="M5 34h23v3H5z"/><path fill="#51433b" d="M10 28h12v7H10z"/><path fill="#69834f" d="M8 15h16v15H8z"/>
+      <path fill="#d5b187" d="M11 6h10v9H11z"/><path fill="#49372e" d="M9 4h14v5H9zm2-2h10v3H11z"/>
+      <path fill="#302b27" d="M12 10h2v2h-2zm5 0h2v2h-2z"/><path fill="#e8d1a0" d="M13 15h5v3h-5z"/>
+      <path fill="#bd8750" d="M19 22h5v5h-5z"/><path fill="#ede0ba" d="M19 21h5v2h-5z"/>
+      <path fill="#51433b" d="M11 34h5v3h-5zm7 0h5v3h-5z"/>
+    </g>
+    <g id="cat-up">
+      <path fill="#182820" d="M5 34h23v3H5z"/><path fill="#51433b" d="M10 28h12v7H10z"/><path fill="#69834f" d="M8 15h16v15H8z"/>
+      <path fill="#49372e" d="M9 4h14v9H9z"/><path fill="#bd8750" d="M19 22h5v5h-5z"/>
+      <path fill="#51433b" d="M11 34h5v3h-5zm7 0h5v3h-5z"/>
+    </g>
+    <g id="cat-left"><use href="#cat-down"/><path fill="#d5b187" d="M17 9h3v4h-3z"/><path fill="#302b27" d="M12 10h2v2h-2zM11 12h1v1h-1z"/></g>
+    <g id="cat-right"><use href="#cat-down"/><path fill="#d5b187" d="M11 9h3v4h-3z"/><path fill="#302b27" d="M17 10h2v2h-2zM19 12h1v1h-1z"/></g>
+
+    <!-- Separate visual-only companion sprite: no NPC entity, hitbox, or interaction. -->
+    <g id="cat-companion">
+      <path fill="#182820" d="M2 12h12v2H2z"/>
+      <path fill="#3a332e" d="M3 6h2V3h2v2h4V3h2v3h2v5H3z"/>
+      <path fill="#d8d0b4" d="M4 6h10v5H4z"/>
+      <path fill="#282a27" d="M5 7h2v2H5zm6 0h2v2h-2z"/>
+      <path fill="#b98658" d="M14 8h2v4h-2z"/>
+    </g>
+
+    <!-- Mysterious elder: layered charcoal coat, silver hair, and a quiet scarf. -->
+    <g id="elder-down">
+      <path fill="#182820" d="M6 34h21v3H6z"/><path fill="#403b46" d="M9 14h18v17H9z"/><path fill="#61586a" d="M11 17h14v11H11z"/>
+      <path fill="#d2c6a8" d="M10 5h13v6H10zM12 3h9v3h-9z"/><path fill="#caa884" d="M12 9h10v7H12z"/>
+      <path fill="#726b65" d="M9 5h4v5H9zm11 0h4v6h-4z"/><path fill="#3b332f" d="M14 12h2v1h-2zm5 0h2v1h-2z"/>
+      <path fill="#be9f68" d="M15 16h4v7h-4z"/><path fill="#48434b" d="M6 20h4v9H6zm20 0h4v9h-4z"/>
+      <path fill="#37333a" d="M10 34h6v3h-6zm8 0h6v3h-6z"/>
+    </g>
+    <g id="elder-up">
+      <path fill="#182820" d="M6 34h21v3H6z"/><path fill="#403b46" d="M9 14h18v17H9z"/><path fill="#574f5e" d="M11 17h14v11H11z"/>
+      <path fill="#726b65" d="M9 5h15v9H9z"/><path fill="#d2c6a8" d="M10 5h4v3h-4zm10 0h4v3h-4z"/>
+      <path fill="#be9f68" d="M15 16h4v7h-4z"/><path fill="#48434b" d="M6 20h4v9H6zm20 0h4v9h-4z"/>
+      <path fill="#37333a" d="M10 34h6v3h-6zm8 0h6v3h-6z"/>
+    </g>
+    <g id="elder-left"><use href="#elder-down"/><path fill="#caa884" d="M19 11h3v3h-3z"/><path fill="#3b332f" d="M14 12h2v1h-2z"/><path fill="#726b65" d="M9 5h4v5H9z"/></g>
+    <g id="elder-right"><use href="#elder-down"/><path fill="#caa884" d="M13 11h3v3h-3z"/><path fill="#3b332f" d="M19 12h2v1h-2z"/><path fill="#726b65" d="M20 5h4v5h-4z"/></g>
+  </defs>
+
+  <!-- Rows are down, up, left, right; columns follow the stable NPC sprite IDs. -->
+  <use href="#tea-down" x="0" y="0"/><use href="#music-down" x="32" y="0"/><use href="#ferry-down" x="64" y="0"/><use href="#cat-down" x="96" y="0"/><use href="#elder-down" x="128" y="0"/>
+  <use href="#tea-up" x="0" y="40"/><use href="#music-up" x="32" y="40"/><use href="#ferry-up" x="64" y="40"/><use href="#cat-up" x="96" y="40"/><use href="#elder-up" x="128" y="40"/>
+  <use href="#tea-left" x="0" y="80"/><use href="#music-left" x="32" y="80"/><use href="#ferry-left" x="64" y="80"/><use href="#cat-left" x="96" y="80"/><use href="#elder-left" x="128" y="80"/>
+  <use href="#tea-right" x="0" y="120"/><use href="#music-right" x="32" y="120"/><use href="#ferry-right" x="64" y="120"/><use href="#cat-right" x="96" y="120"/><use href="#elder-right" x="128" y="120"/>
+  <use href="#cat-companion" x="0" y="160"/>
+</svg>
